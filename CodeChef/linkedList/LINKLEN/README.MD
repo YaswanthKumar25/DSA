@@ -31,7 +31,6 @@ Start from the head node and traverse the linked list one node at a time. Mainta
 3. While the current node is not `None`:
    - Increment `cnt` by `1`.
    - Move to the next node.
-
 4. Return `cnt`.
 
 ## Time Complexity
