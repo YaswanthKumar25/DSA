@@ -16,27 +16,32 @@ Linked List
 
 Easy
 
+## Problem Statement
+
+Given the head of a singly linked list, return the number of nodes present in the linked list.
+
 ## Approach
 
-Explain your idea here.
+Start from the head node and traverse the linked list one node at a time. Maintain a counter that is incremented for every visited node. Continue until the current node becomes `None`. The final value of the counter is the length of the linked list.
 
 ## Algorithm
 
-1. ...
-2. ...
-3. ...
+1. Initialize a counter `cnt` to `0`.
+2. Set the current node to `head`.
+3. While the current node is not `None`:
+   - Increment `cnt` by `1`.
+   - Move to the next node.
+
+4. Return `cnt`.
 
 ## Time Complexity
 
-- O(n)
+**O(n)**, where `n` is the number of nodes in the linked list.
 
 ## Space Complexity
 
-- O(1)
+**O(1)**
 
-## Solution
+## Solution File
 
-```python
-# (Optional: paste your final solution here,
-# or simply keep it in solution.py)
-```
+`Length_of_Linked_List.py`
